@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Meeds Design</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav class="relative bg-blue-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 flex justify-between items-center py-4">
+                <h1 class="text-lg font-bold">Justin Meeds Design</h1>
+                <button id="menu-toggle" class="block md:hidden">☰</button>
+                <ul id="menu" class="hidden md:flex space-x-6">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-center py-8 bg-blue-600 text-white">
+            <h1 class="text-4xl font-bold">Crafting Websites for Visionary Leaders, Coaches, and Healers</h1>
+            <p class="text-lg mt-2">Transforming your digital presence to reflect your unique essence.</p>
+            <button class="mt-4 px-6 py-2 bg-white text-blue-600 rounded shadow hover:bg-gray-100">Get Started</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-16 px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Welcome to Justin Meeds Design</h2>
+            <p class="text-lg max-w-3xl mx-auto">
+                At Justin Meeds Design, we specialize in creating compelling websites for visionary leaders, coaches, and healers.
+                Our holistic and iterative design approach ensures that your digital presence reflects your true essence and connects
+                with your ideal audience.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p>© 2024 Justin Meeds Design</p>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
