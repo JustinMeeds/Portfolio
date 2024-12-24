@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    margin: 0;
+    margin: 0; /* Fixed the margin issue */
     padding: 0;
     background-color: #f9fafb;
     color: #333;
@@ -42,6 +42,13 @@ nav ul li a:hover {
 }
 
 /* Header Styles */
+header {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
 header div.text-center {
     background-color: #1d4ed8;
     color: #ffffff;
@@ -67,6 +74,28 @@ header button:hover {
     background-color: #f3f4f6;
 }
 
+/* Navigation Links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: #2563eb;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
 /* Footer */
 footer ul {
     list-style: none;
@@ -86,4 +115,17 @@ footer ul li a {
 
 footer ul li a:hover {
     text-decoration: underline;
+}
+
+/* Button Styles */
+button {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563eb;
 }
